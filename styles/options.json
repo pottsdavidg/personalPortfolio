@@ -1,0 +1,25 @@
+{
+	"nav": {
+		"a": { "link": "home.html", "title": "Home" },
+		"b": { "link": "about.html", "title": "About" },
+		"c": { "link": "contact.html", "title": "Contact" },
+		"d": { "link": "location.html", "title": "Location" }
+	},
+	"homeCard": {
+		"image": "./images/product.png",
+		"message1": "This product is coming soon!",
+		"message2": "Click the button below to learn more!",
+		"buttonLink": "https://en.wikipedia.org/wiki/Don_McMahon",
+		"buttonTitle": "Learn More",
+		"dividerTitle": "Custom Products",
+	},
+	"schedule": {
+		"sunday": { "day": "Sun", "open": "Closed", "close": "*" },
+		"monday": { "day": "Mon", "open": "8:00 am", "close": "5:00 pm" },
+		"tuesday": { "day": "Tue", "open": "8:00 am", "close": "5:00 pm" },
+		"wednesday": { "day": "Wed", "open": "8:00 am", "close": "5:00 pm" },
+		"thursday": { "day": "Thu", "open": "8:00 am", "close": "5:00 pm" },
+		"friday": { "day": "Fri", "open": "8:00 am", "close": "5:00 pm" },
+		"saturday": { "day": "Sat", "open": "Closed", "close": "*" }
+	}
+}

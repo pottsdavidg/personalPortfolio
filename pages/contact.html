@@ -1,0 +1,122 @@
+<!DOCTYPE=html>
+
+<html>
+
+<head>
+	<title>Pro Plastics - BETA UI</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Injection Molding Specialists">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="David Potts">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="icon" href="./images/proicon.png">
+</head>
+
+<body>
+
+	<header>
+		
+		<div class="header-container">
+			
+			<div class="header-div" id="site-logo">
+				<img src="./images/logo.png">
+			</div>
+
+			<div class="header-div" id="search-div">
+
+				<div class="site-search">
+
+					<div class="search-div">
+						<input id="site-search" type="text" placeholder="Search this site">
+					</div>
+
+					<div class="search-img-div">
+						<img src="./images/search.png">
+					</div>
+
+				</div>
+
+			</div>
+			
+			<div class="header-div" id="nav-links"> </div>
+		
+		</div>
+
+	</header>
+
+	<main>
+		
+		<div class="main-content-contact">
+
+			<form id="survey-form" action="https://formsubmit.co/pottsdavidg@gmail.com" method="POST">
+
+				<div class="form-div">
+					<div class="label-div">
+						<label id="name-label" for="name">Name:</label>
+					</div>
+					<input class="textbox" type="text" id="name" name="_replyto" placeholder="Last, First" required>
+				</div>
+
+				<div class="form-div">
+					<div class="label-div">
+						<label id="email-label" for="email">Email:</label>
+					</div>
+					<input class="textbox" type="email" id="email" name="email" placeholder="email@company.com" required>
+				</div>
+
+				<div class="form-div">
+					<div class="label-div">
+						<label id="dropdown-label" for="number">Subject:</label>
+					</div>
+					<select class="textbox" name="_subject" id="dropdown" required>
+						<option disabled selected value>Select One</option>
+						<option value>Promotion</option>
+						<option value>Customer Service</option>
+						<option value>Order Information</option>
+						<option value>Other</option>
+					</select>
+				</div>
+	
+				<div class="form-div" style="display: block;">
+					<textarea name="message" class="textbox-large" rows="10" cols="50" id="short-response" placeholder="Message for Pro Plastics." required>
+					</textarea>
+				</div>
+
+				<div class="form-div">
+					<input id="file-submit" type="file" name="attachment">
+				</div>
+
+				<div class="submit-button-div">
+					<input type="submit" value="Submit" id="submit-button">
+				</div>
+
+			</form>
+
+			<div class="contact-container">
+
+				<div class="sub-container">
+
+					<span class="header-text">Other Contact Info</span>
+
+				</div>
+
+				<div class="sub-container">
+
+					<span class="body-text">
+						Phone number: (937) 897 9009<br/>
+					</span>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</main>
+
+</body>
+
+<script type="text/javascript" src="./scripts/script.js"></script>
+
+</html>
